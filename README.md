@@ -22,8 +22,6 @@ Standard database operations are vulnerable to Read-Modify-Write race conditions
 
 The following plots demonstrate the system's stability and response times during the 50-user spike test, maintaining a 15ms median latency with zero data collisions across 24,000+ requests.
 
-![Locust Load Test Results](tests/test_results/result_plots.png)
-
 ## Features by Role
 
 ### Admin
